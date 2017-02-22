@@ -35,9 +35,6 @@ def get_matrix():
 #     sim = np.dot(te_d[0], tr_d[0].T)
 #     label = sim.argmax(axis = 1)
     
-    #每行最大的index
-    
-    #创建全是0的矩阵
     confusion = np.zeros((10,10),dtype=np.int)
     precision = np.zeros((10,1))
     recall = np.zeros((10,1))
